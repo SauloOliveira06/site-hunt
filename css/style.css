@@ -2069,7 +2069,7 @@ form label {
 }
 #ubea-offcanvas ul li > ul {
   padding-left: 20px;
-  display: none;
+  /*display: none;*/
 }
 #ubea-offcanvas ul li.offcanvas-has-dropdown > a {
   display: block;

@@ -51,13 +51,13 @@
               <div class="col-md-6 text-right menu-1 main-nav">
                 <ul>
                   <li class="active"><a href="index.html">Início</a></li>
-                  <li><a href="sobre-nos.html">Sobre</a></li>
+                  <li><a href="sobre-nos.html" onclick="linkSobre();">Sobre</a></li>
                   <li><a href="#">Serviços<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                       <ul id="submenu" class="has-dropdown">
-                        <li><a href="consultoria-empresarial.html">Consultoria Empresarial</a></li>
-                        <li><a href="terceirizacao-temporarios.html">Terceirização e Temporários</a></li>
-                        <li><a href="consultoria-rh.html">Consultoria de RH</a></li>
-                        <li><a href="educacao-corporativa.html">Educação Corporativa</a></li>
+                        <li><a href="consultoria-empresarial.html" onclick="link1();">Consultoria Empresarial</a></li>
+                        <li><a href="terceirizacao-temporarios.html" onclick="link2();">Terceirização e Temporários</a></li>
+                        <li><a href="consultoria-rh.html" onclick="link3();">Consultoria de RH</a></li>
+                        <li><a href="educacao-corporativa.html" onclick="link4();">Educação Corporativa</a></li>
                       </ul>
                   </li>
                   <li id="contato-li"><a href="#">Contato</a></li>
@@ -563,11 +563,23 @@
     <!-- Main -->
     <script src="js/main.js"></script>
 
-    
-
     <script>
-      
-    </script>
+      function link1(){
+        window.location.replace('consultoria-empresarial.html');
+      }
+      function link2(){
+        window.location.replace('terceirizacao-temporarios.html');
+      }
+      function link3(){
+        window.location.replace('consultoria-rh.html');
+      }
+      function link4(){
+        window.location.replace('educacao-corporativa.html');
+      }
+      function linkSobre(){
+        window.location.replace('sobre-nos.html');
+      }
+  </script>
 
   </body>
 </html>
